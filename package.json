@@ -1,0 +1,29 @@
+{
+  "name": "record-repeat-mock-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jasmine-ts --config=jasmine.json",
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "Marian Theisen <marian@cice-online.net>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/express": "^4.16.0",
+    "@types/jasmine": "^2.8.8",
+    "@types/node": "^10.3.4",
+    "jasmine-co": "^1.2.2",
+    "jasmine-core": "^3.1.0",
+    "jasmine-ts": "^0.2.1",
+    "ts-loader": "^4.4.1",
+    "typescript": "^2.9.2"
+  },
+  "dependencies": {
+    "@types/lodash": "^4.14.110",
+    "axios": "^0.18.0",
+    "express": "^4.16.3",
+    "lodash": "^4.17.10"
+  }
+}

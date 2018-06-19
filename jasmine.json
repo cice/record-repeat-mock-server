@@ -1,0 +1,9 @@
+{
+  "helpers": [
+    "spec-helper.ts"
+  ],
+  "spec_files": [
+    "src/**/*.spec.ts"
+  ],
+  "random": false
+}
